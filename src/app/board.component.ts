@@ -29,7 +29,18 @@ import { CommonModule } from '@angular/common';
         max-width: fit-content;
 
         button {
-            margin: 1rem
+            background-color: chocolate;
+            border: none;
+            color: white;
+            max-width: 304px;
+            cursor: pointer;
+            width: -webkit-fill-available;
+            margin: 0.5rem;
+            height: 3rem;
+            border-radius: 10px;
+            font-size: medium;
+            font-weight: 700;
+            max-width: 304px;
         }
   }
         
